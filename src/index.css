@@ -20,7 +20,7 @@
 .wrapper{
   padding: 30px;
   width: 300px;
-  height: 350px;
+  height: 450px;
   transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
   border-radius:20px;
   box-shadow: 0 0 12px 0 rgba(0,0,0,0.2);
@@ -32,7 +32,7 @@
 }
 
 .profile{
-  margin-top: 50px;
+  margin-top: 140px;
   display: flex;
 }
 
