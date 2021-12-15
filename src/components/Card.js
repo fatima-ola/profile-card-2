@@ -5,13 +5,11 @@ import CardBody from './CardBody';
 
 const Card = () => {
     return (
-        <div className="card">
-           
-        <div className="wrapper">
-        <CardHeader />
-        <CardBody />
-        </div>
-
+        <div className="card">    
+            <div className="wrapper">
+                <CardHeader />
+                <CardBody />
+            </div>
         </div>
     )
 }
