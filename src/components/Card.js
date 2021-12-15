@@ -1,17 +1,16 @@
-import React from 'react';
-import '../index.css';
-import CardHeader from './CardHeader';
-import CardBody from './CardBody';
+import React from "react";
+import CardHeader from "./CardHeader";
+import CardBody from "./CardBody";
 
 const Card = () => {
-    return (
-        <div className="card">    
-            <div className="wrapper">
-                <CardHeader />
-                <CardBody />
-            </div>
-        </div>
-    )
-}
+  return (
+    <div className="card">
+      <div className="wrapper">
+        <CardHeader />
+        <CardBody />
+      </div>
+    </div>
+  );
+};
 
-export default Card
+export default Card;

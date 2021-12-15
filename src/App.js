@@ -1,13 +1,6 @@
-import React from 'react';
-import Card from './components/Card'
+import React from "react";
+import Card from "./components/Card";
 
-
-function App() {
-  return (
-    <div>
-      <Card />
-    </div>
-  );
-}
+const App = () => <Card />;
 
 export default App;
